@@ -10,30 +10,30 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-	// todo: consider adding three.js 3d animation
-	// todo: crop pfp to remove watermark
+  // todo: consider adding three.js 3d animation
+  // todo: crop pfp to remove watermark
 
-	// todo: animate project tiles as they come into view using the Intersection Observer API
+  // todo: animate project tiles as they come into view using the Intersection Observer API
 
-	// todo: change color theme
+  // todo: change color theme
 
-	// todo: add responsive scaling tailwind classes for larger screens like md:, lg:, etc.
+  // todo: add responsive scaling tailwind classes for larger screens like md:, lg:, etc.
 
-	return (
-		<div className="App">
-			<Header />
+  return (
+    <div className="App">
+      <Header />
 
-			<Hero />
+      <Hero />
 
-			<About />
+      <About />
 
-			<Projects />
+      <Projects />
 
-			<Contact />
+      <Contact />
 
-			<Footer />
-		</div>
-	);
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

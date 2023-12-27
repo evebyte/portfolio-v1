@@ -21,10 +21,6 @@ const Hero: FC = () => {
 					/>
 				</div>
 
-				{/* <h1 className="text-5xl md:text-7xl mb-2 font-black	">hi, i am eve</h1> */}
-
-				{/* <p className="text-xl">i build software</p> */}
-
 				<TypeAnimation
 					// Same String at the start will only be typed once, initially
 					sequence={["hi, i'm eve", 1000]}
